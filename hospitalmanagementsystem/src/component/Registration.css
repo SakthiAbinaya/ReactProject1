@@ -1,0 +1,58 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black; /* Text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+  }
+
+  .registration-container {
+    background-color: rgba(246, 222, 210, 0.399);
+    box-shadow: 0 0 20px rgba(35, 24, 24, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    /* margin-top: 1%; */
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+
+  .registration-container h2 {
+    color: #010f18; /* Accent color for headers */
+    margin-bottom: 20px;
+  }
+
+  .registration-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .registration-container input, .registration-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid #3498db; /* Accent color for borders */
+    border-radius: 5px;
+    background-color: #d7e1ea; /* Input background color */
+    color: black; /* Input text color */
+    outline: none;
+  }
+
+  .registration-container button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .registration-container button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+  }
